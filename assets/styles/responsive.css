@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+    body .chat{
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    body .chat .input{
+        width: 100%;
+    }
+
+    body .chat .input textarea{
+        min-width: 80%;
+    }
+
+    body .chat .input button{
+        min-width: 12%;
+        min-height: 50px;
+    }
+
+    /* Messages */
+
+    .messages{
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .messages .user{
+        width: 100%;
+    }
+    
+    .messages .bot{
+        width: 100%;
+    }
+
+    /* Chat List */
+    body .chatList{
+        display: none;
+    }
+}
